@@ -26,7 +26,7 @@ function connecteClient() {
     ws.onclose = function () {
         // 关闭 websocket
         alert("连接已关闭...");
-    };
+    }; 
 }
 
 // blob格式转换为base64格式
